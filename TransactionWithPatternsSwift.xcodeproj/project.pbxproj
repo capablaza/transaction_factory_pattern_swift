@@ -11,8 +11,21 @@
 		C495D5F825DEABA700B9531A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C495D5F725DEABA700B9531A /* ContentView.swift */; };
 		C495D5FA25DEABA900B9531A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C495D5F925DEABA900B9531A /* Assets.xcassets */; };
 		C495D5FD25DEABA900B9531A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C495D5FC25DEABA900B9531A /* Preview Assets.xcassets */; };
-		C495D60825DEABA900B9531A /* TransactionWithPatternsSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C495D60725DEABA900B9531A /* TransactionWithPatternsSwiftTests.swift */; };
 		C495D61325DEABA900B9531A /* TransactionWithPatternsSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C495D61225DEABA900B9531A /* TransactionWithPatternsSwiftUITests.swift */; };
+		C495D62525DEAC3900B9531A /* TransferService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C495D62425DEAC3900B9531A /* TransferService.swift */; };
+		C495D62D25DEACD300B9531A /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C495D62C25DEACD300B9531A /* Operation.swift */; };
+		C495D63225DEAE5400B9531A /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C495D63125DEAE5400B9531A /* ApiClient.swift */; };
+		C495D63725DEB1E900B9531A /* ApiClientRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C495D63625DEB1E900B9531A /* ApiClientRequest.swift */; };
+		C495D63C25DEB8A400B9531A /* ApiClientResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C495D63B25DEB8A400B9531A /* ApiClientResponse.swift */; };
+		C495D64125DEBD0100B9531A /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C495D64025DEBD0100B9531A /* Storage.swift */; };
+		C495D64625DEBD7A00B9531A /* TransferResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C495D64525DEBD7A00B9531A /* TransferResponse.swift */; };
+		C495D64B25DEC11C00B9531A /* TransferServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C495D64A25DEC11C00B9531A /* TransferServiceTest.swift */; };
+		C495D65025DEC17800B9531A /* StorageDummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C495D64F25DEC17800B9531A /* StorageDummy.swift */; };
+		C495D65525DEC4CB00B9531A /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = C495D65425DEC4CB00B9531A /* Client.swift */; };
+		C495D65A25DEC53500B9531A /* SantanderClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C495D65925DEC53500B9531A /* SantanderClient.swift */; };
+		C495D66225DEC6A000B9531A /* BCIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C495D66125DEC6A000B9531A /* BCIClient.swift */; };
+		C495D66725DEC79900B9531A /* ClientFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C495D66625DEC79900B9531A /* ClientFactory.swift */; };
+		C495D66C25DEC8F400B9531A /* ClientError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C495D66B25DEC8F400B9531A /* ClientError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,11 +53,24 @@
 		C495D5FC25DEABA900B9531A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C495D5FE25DEABA900B9531A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C495D60325DEABA900B9531A /* TransactionWithPatternsSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransactionWithPatternsSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C495D60725DEABA900B9531A /* TransactionWithPatternsSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionWithPatternsSwiftTests.swift; sourceTree = "<group>"; };
 		C495D60925DEABA900B9531A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C495D60E25DEABA900B9531A /* TransactionWithPatternsSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransactionWithPatternsSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C495D61225DEABA900B9531A /* TransactionWithPatternsSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionWithPatternsSwiftUITests.swift; sourceTree = "<group>"; };
 		C495D61425DEABA900B9531A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C495D62425DEAC3900B9531A /* TransferService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferService.swift; sourceTree = "<group>"; };
+		C495D62C25DEACD300B9531A /* Operation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operation.swift; sourceTree = "<group>"; };
+		C495D63125DEAE5400B9531A /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		C495D63625DEB1E900B9531A /* ApiClientRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClientRequest.swift; sourceTree = "<group>"; };
+		C495D63B25DEB8A400B9531A /* ApiClientResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClientResponse.swift; sourceTree = "<group>"; };
+		C495D64025DEBD0100B9531A /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		C495D64525DEBD7A00B9531A /* TransferResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferResponse.swift; sourceTree = "<group>"; };
+		C495D64A25DEC11C00B9531A /* TransferServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferServiceTest.swift; sourceTree = "<group>"; };
+		C495D64F25DEC17800B9531A /* StorageDummy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageDummy.swift; sourceTree = "<group>"; };
+		C495D65425DEC4CB00B9531A /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		C495D65925DEC53500B9531A /* SantanderClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SantanderClient.swift; sourceTree = "<group>"; };
+		C495D66125DEC6A000B9531A /* BCIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BCIClient.swift; sourceTree = "<group>"; };
+		C495D66625DEC79900B9531A /* ClientFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientFactory.swift; sourceTree = "<group>"; };
+		C495D66B25DEC8F400B9531A /* ClientError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +121,7 @@
 		C495D5F425DEABA700B9531A /* TransactionWithPatternsSwift */ = {
 			isa = PBXGroup;
 			children = (
+				C495D62325DEAC1300B9531A /* services */,
 				C495D5F525DEABA700B9531A /* TransactionWithPatternsSwiftApp.swift */,
 				C495D5F725DEABA700B9531A /* ContentView.swift */,
 				C495D5F925DEABA900B9531A /* Assets.xcassets */,
@@ -115,8 +142,9 @@
 		C495D60625DEABA900B9531A /* TransactionWithPatternsSwiftTests */ = {
 			isa = PBXGroup;
 			children = (
-				C495D60725DEABA900B9531A /* TransactionWithPatternsSwiftTests.swift */,
 				C495D60925DEABA900B9531A /* Info.plist */,
+				C495D64A25DEC11C00B9531A /* TransferServiceTest.swift */,
+				C495D64F25DEC17800B9531A /* StorageDummy.swift */,
 			);
 			path = TransactionWithPatternsSwiftTests;
 			sourceTree = "<group>";
@@ -128,6 +156,25 @@
 				C495D61425DEABA900B9531A /* Info.plist */,
 			);
 			path = TransactionWithPatternsSwiftUITests;
+			sourceTree = "<group>";
+		};
+		C495D62325DEAC1300B9531A /* services */ = {
+			isa = PBXGroup;
+			children = (
+				C495D62425DEAC3900B9531A /* TransferService.swift */,
+				C495D62C25DEACD300B9531A /* Operation.swift */,
+				C495D63125DEAE5400B9531A /* ApiClient.swift */,
+				C495D63625DEB1E900B9531A /* ApiClientRequest.swift */,
+				C495D63B25DEB8A400B9531A /* ApiClientResponse.swift */,
+				C495D64025DEBD0100B9531A /* Storage.swift */,
+				C495D64525DEBD7A00B9531A /* TransferResponse.swift */,
+				C495D65425DEC4CB00B9531A /* Client.swift */,
+				C495D65925DEC53500B9531A /* SantanderClient.swift */,
+				C495D66125DEC6A000B9531A /* BCIClient.swift */,
+				C495D66625DEC79900B9531A /* ClientFactory.swift */,
+				C495D66B25DEC8F400B9531A /* ClientError.swift */,
+			);
+			path = services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +306,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C495D64625DEBD7A00B9531A /* TransferResponse.swift in Sources */,
+				C495D66725DEC79900B9531A /* ClientFactory.swift in Sources */,
+				C495D63C25DEB8A400B9531A /* ApiClientResponse.swift in Sources */,
+				C495D62525DEAC3900B9531A /* TransferService.swift in Sources */,
+				C495D63725DEB1E900B9531A /* ApiClientRequest.swift in Sources */,
 				C495D5F825DEABA700B9531A /* ContentView.swift in Sources */,
 				C495D5F625DEABA700B9531A /* TransactionWithPatternsSwiftApp.swift in Sources */,
+				C495D65A25DEC53500B9531A /* SantanderClient.swift in Sources */,
+				C495D64125DEBD0100B9531A /* Storage.swift in Sources */,
+				C495D62D25DEACD300B9531A /* Operation.swift in Sources */,
+				C495D65525DEC4CB00B9531A /* Client.swift in Sources */,
+				C495D63225DEAE5400B9531A /* ApiClient.swift in Sources */,
+				C495D66225DEC6A000B9531A /* BCIClient.swift in Sources */,
+				C495D66C25DEC8F400B9531A /* ClientError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +327,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C495D60825DEABA900B9531A /* TransactionWithPatternsSwiftTests.swift in Sources */,
+				C495D65025DEC17800B9531A /* StorageDummy.swift in Sources */,
+				C495D64B25DEC11C00B9531A /* TransferServiceTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
